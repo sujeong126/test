@@ -4,15 +4,17 @@
   box-sizing: content-box;
 }
 
-.container {
-  width: 280px;
-  height: 270px;
-  background-color: rgb(243, 243, 243);
-  margin: 20px auto 0 auto;
-  border-radius: 25px;
+#container {
+  width: 600px;
+  margin: 0 auto;
 }
 
-.content {
+#form-content {
+  width: 300px;
+  height: 270px;
+  border-radius: 25px;
+  background-color: rgb(243, 243, 243);
+  margin: 20px auto 0 auto;
   text-align: center;
 }
 
@@ -20,7 +22,7 @@ label {
   font-size: 15px;
   font-weight: 400;
   display: block;
-  padding: 10px 0 10px 0;
+  padding: 10px 0;
 }
 
 .form-inputs {
@@ -60,4 +62,39 @@ button {
   font-size: 13px;
   font-weight: 400;
   margin-top: 15px;
+  cursor: pointer;
+}
+
+#list-content {
+  width: 600px;
+  background-color: rgb(246, 246, 246);
+  margin: 30px auto;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  text-align: center;
+  padding: 10px 0;
+  font-weight: 400;
+}
+
+#list {
+  margin: 0 auto;
+  width: 500px;
+  background-color: rgba(172, 189, 246, 0.908);
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+ul {
+  height: 30px;
+  line-height: 30px;
+}
+
+li {
+  list-style: none;
+  float: left;
+  width: 25%;
+  text-align: center;
 }

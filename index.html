@@ -2,28 +2,37 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>폼 작성</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-      <div class="content">
+    <div id="container">
+      <div id="form-content">
         <form id="submit">
           <label>개인정보 폼 작성</label>
           <div class="form-inputs">
-            <input type="text" placeholder="이름">
+            <input type="text" placeholder="이름" id="name">
             <div class="form-inputs-center">
-              <input type="text" placeholder="나이">
-              <input type="text" placeholder="성별">
+              <input type="text" placeholder="나이" id="age">
+              <input type="text" placeholder="성별" id="gender">
             </div>
-            <input type="tel" placeholder="전화번호">
+            <input type="tel" placeholder="전화번호" id="tel">
           </div>
           <button>완료</button>
         </form>
       </div>
+      <div id="list-content">
+        <h3>사용자 목록</h3>
+        <div id="list">
+          <ul>
+            <li>이름</li>
+            <li>성별</li>
+            <li>나이</li>
+            <li>전화번호</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <script src="js.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
